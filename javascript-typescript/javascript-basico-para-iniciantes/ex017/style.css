@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+p {
+    display: flex;
+    justify-content: space-between;
+    width: 280px;
+}
+
+#pBotoes {
+    justify-content: center;   
+}
+
+#pBotoes input {
+    margin: 5px 15px;
+}

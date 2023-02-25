@@ -1,0 +1,10 @@
+let nome = prompt('Qual é o seu nome? ')
+document.body.innerHTML += `Seu nome é: <strong>${nome}</strong><br />`;
+document.body.innerHTML += `Seu nome tem <strong>${nome.length}</strong> letras<br />`;
+document.body.innerHTML += `A segunda letra do seu nome é: <strong>${nome[1]}</strong><br />`;
+document.body.innerHTML += `O primeiro ídice da letra 'a' no seu nome é: <strong>${nome.indexOf('a')}</strong><br />`;
+document.body.innerHTML += `O último ídice da letra 'a' no seu nome é: <strong>${nome.lastIndexOf('a')}</strong><br />`;
+document.body.innerHTML += `As últimas 3 letras do seu nome são: <strong>${nome.slice(- 3)}</strong><br />`;
+document.body.innerHTML += `As palavras do seu nome são: <strong>${nome.split(' ')}</strong><br />`;
+document.body.innerHTML += `Seu nome com letras maiúsculas: <strong>${nome.toLocaleUpperCase()}</strong><br />`;
+document.body.innerHTML += `Seu nome com letras minúsculas: <strong>${nome.toLocaleLowerCase()}</strong><br />`;

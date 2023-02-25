@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="cadastro()" autocomplete="off" class="formulario">
+        <p>
+            <label for="iNome">Nome:</label>
+            <input type="text" name="nNome" id="iNome" class="nome" required>
+        </p>
+        <p>
+            <label for="iSobrenome">Sobrenome:</label>
+            <input type="text" name="nSobrenome" id="iSobrenome" class="sobrenome" required>
+        </p>
+        <p>
+            <label for="iPeso">Peso:</label>
+            <input type="text" name="nPeso" id="iPeso" class="peso" required>
+        </p>
+        <p>
+            <label for="iAltura">Altura:</label>
+            <input type="text" name="nAltura" id="iAltura" class="altura" required>
+        </p>
+        <p id="pBotoes">
+            <input type="submit" value="Envia">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+    <div class="resultado"></div>
+    <script src="exercicio.js"></script>
+</body>
+</html>
