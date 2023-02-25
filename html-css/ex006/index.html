@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        #container {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: space-around;
+            flex-direction: column;
+            align-items;
+            align-content: space-between;
+            padding: 20px;
+        }
+
+        #square-one {
+            width: 150px;
+            height: 150px;
+            background-color: darkred;
+            border: 5px solid darkblue;
+            align-self: flex-end;
+            order: 1;
+        }
+
+        #square-two {
+            width: 150px;
+            height: 150px;
+            background-color: darkblue;
+            border: 5px solid darkred;
+            align-self: flex-start;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="square-one"></div>
+        <div id="square-two"></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,201 @@
+@charset "UTF-8";
+
+@font-face {  
+    font-family: 'Netflix';
+    src: url(../fonts/netflix-sans-light.otf) format('truetype');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Netflix';
+    src: url(../fonts/netflix-sans-medium.otf) format('truetype');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Netflix';
+    src: url(../fonts/netflix-sans-bold.otf) format('truetype');
+    font-weight: 700;
+}
+
+/*Reset*/
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    border: none;
+    box-sizing: border-box;
+}
+
+/*Mobile First*/
+body {
+    width: 100vw;
+    height: 100vh;
+    background: black url(../images/background.jpg) no-repeat;
+    background-size: cover;
+}
+
+#corpo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: radial-gradient(rgba(0, 0, 0, 0.400), rgba(0, 0, 0, 0.500), rgb(0, 0, 0));
+}
+
+#container {
+    display: flex;
+    width: 95%;
+    height: 80px;
+    justify-content: space-between;
+}
+
+#cont-netflix {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 110px;
+    margin-left: 15px;
+}
+
+#logo-netflix {
+    max-width: 100%;
+}
+
+#box1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 150px;
+    margin-right: 15px   
+}
+
+#idioma {
+    width: 64px;
+    height: 32px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(255, 255, 255, 0.667);
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+
+#symbol1 {
+    display: inline;
+    font-size: 20px;
+}
+
+#symbol2 {   
+    display: inline;
+    font-size: 20px;
+}
+
+#selec-idioma {
+    display: inline;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+#id-entrar {
+    display: block;
+    align-items: center;
+    width: 72px;
+    height: 32px;
+    background-color: #E50914;
+    border-radius: 5px;
+    border: none;
+    font-family: Netflix;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+#id-entrar:hover {
+    background-color: #ac0810;
+    cursor: pointer;
+}
+
+#cont-main {
+    width: 90%;
+    height: 50vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#cont-main > h1 {
+    font-family: Netflix;
+    font-weight: 900;
+    width: 100%;
+    font-size: 32px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#cont-main > p {
+    font-family: Netflix;
+    font-weight: 300;
+    font-size: 18px;
+    text-align: center;   
+    padding-bottom: 30px; 
+}
+
+#id-formulario {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#id-formulario > form {
+    width: 100%;
+}
+
+#id-formulario h2 {
+    display: block;
+    width: 85vw;
+    margin: auto;
+    font-family: Netflix;
+    font-weight: 200;
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 15px;   
+}
+
+#id-email {
+    display: block;
+    width: 90%;
+    height: 48px;
+    margin: auto;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    text-indent: 18px;
+}
+
+#id-vamos-la {
+    display: block;
+    width: 130px;
+    height: 48px;
+    margin: auto;
+    background-color: #E50914;
+    border-radius: 5px;
+    border: none;
+    font-family: Netflix, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+#id-vamos-la:hover {
+    background-color: #ac0810;
+    cursor: pointer;
+}
