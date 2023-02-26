@@ -3,7 +3,7 @@
  <br/>
  
  **projeto calculadora IMC →** Criando um projeto de uma calculadora de IMC.
-> ![](images/html.svg)![](images/css.svg)![](images/javascript.svg) 
->> [clique aqui](https://aleretamero.github.io/principais-projetos-curso-otavio-miranda/projeto-calculadora-imc/) para acessar o projeto calculadora IMC.
-
-<br/>
+> ![](../images/badges/html.svg)![](../images/badges/css.svg)![](../images/badges/javascript.svg) 
+>> [clique aqui](https://aleretamero.github.io/cursos-otavio-miranda/principais-projetos/projeto-calculadora-imc/) para acessar o projeto calculadora IMC.
+>>> [clique aqui](./projeto-calculadora-imc/) para acessar o diretório do projeto.
+<hr/>
