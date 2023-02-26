@@ -26,6 +26,6 @@
 -->
 
 <div align="center">
-<img src="./images/bg-program.webp" width="500">
+<img src="./images/bg-program.webp">
 </div>
 
