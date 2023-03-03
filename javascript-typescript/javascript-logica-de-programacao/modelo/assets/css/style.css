@@ -10,15 +10,15 @@
 
 main {
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
   background-image: linear-gradient(75deg, rgb(32, 158, 190), rgb(11, 55, 66));
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .container {
-  width: 500px;
-  height: 200px;
+  min-width: 500px;
+  min-height: 200px;
   background-color: #fff;
   border-radius: 20px;
   padding: 30px 0px;
